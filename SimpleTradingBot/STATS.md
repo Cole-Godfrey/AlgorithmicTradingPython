@@ -3,7 +3,7 @@
 Start Date: 2020-01-01
 End Date: 2026-01-01
 
-PSR: 18.25%
+PSR: 18.25%  
 Sharpe: 0.469  
 Sortino: 0.451  
 Win Rate: 71%  
