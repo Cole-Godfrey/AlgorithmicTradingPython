@@ -9,5 +9,6 @@ Here are the algorithms I have made so far:
 - A [simple intraday SPY bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SimpleIntradaySPY) that at the start of each day goes long if open < yesterday's close, short if open > yesterday's close (both by 1%).
 - A [size effect strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SizeEffectStrategy) which takes the 200 most liquid stocks that have a price above $10 and invests in the 10 stocks with the lowest market cap, rebalancing every month.
 - An [X trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/XTradingBot) that performs sentiment analysis on Elon Musk's tweets to trade TSLA.
+- Another [SMA strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SMASPYBND) using a 30 day SMA where if SMA < SPY, allocate 80% of portfolio to SPY, 20% BND. Else 20%/80%. Rebalance to 80%/20% if no trend change for 30 days.
 
 The backtesting statistics for each algorithm can be found in STATS.md in each algorithm's folder.
