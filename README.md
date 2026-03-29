@@ -11,5 +11,6 @@ Here are the algorithms I have made so far:
 - An [X trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/XTradingBot) that performs sentiment analysis on Elon Musk's tweets to trade TSLA.
 - Another [SMA strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SMASPYBND) using a 30 day SMA where if SMA < SPY, allocate 80% of portfolio to SPY, 20% BND. Else 20%/80%. Rebalance to 80%/20% if no trend change for 30 days.
 - A [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) that is a simple mean reversion strategy on EURUSD.
+- An [options trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/OptionsTradingBot) that buys call options if the price breaks out of its one-month high.
 
 The backtesting statistics for each algorithm can be found in STATS.md in each algorithm's folder.
