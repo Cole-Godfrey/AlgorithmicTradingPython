@@ -12,10 +12,11 @@ Here are the algorithms I have made so far:
 - Another [SMA strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SMASPYBND) using a 30 day SMA where if SMA < SPY, allocate 80% of portfolio to SPY, 20% BND. Else 20%/80%. Rebalance to 80%/20% if no trend change for 30 days.
 - A [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) that is a simple mean reversion strategy on EURUSD.
 - An [options trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/OptionsTradingBot) that buys call options if the price breaks out of its one-month high.
+- A momentum-based [crypto trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/CryptoTradingBot) that buys $5,000 positions in any of 47 Bitfinex-listed cryptocurrencies when their 14-day RSI croses above 70 and sells when RSI drops below 60, filtering out low-volume pairs.
 
 **Here are my best strategies for each metric**:  
 *Note that the backtesting timeframe for each strategy is from 2016-01-01 to 2026-01-01 unless specified otherwise.*  
-- PSR (Benchmark Sharpe of 1): [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (30.234%)  
+- PSR (Benchmark Sharpe of 1): [Crypto trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/CryptoTradingBot) (33.253%)  
 - Sharpe: [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (0.631)  
 - Sortino: [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (0.575)
 - Drawdown: [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) (11.5%)
