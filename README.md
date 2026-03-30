@@ -13,4 +13,12 @@ Here are the algorithms I have made so far:
 - A [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) that is a simple mean reversion strategy on EURUSD.
 - An [options trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/OptionsTradingBot) that buys call options if the price breaks out of its one-month high.
 
-The backtesting statistics for each algorithm can be found in STATS.md in each algorithm's folder.
+**Here are my best strategies for each metric**:  
+*Note that the backtesting timeframe for each strategy is from 2016-01-01 to 2026-01-01 unless specified otherwise.*  
+- PSR (Benchmark Sharpe of 1): [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (30.234%)  
+- Sharpe: [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (0.631)  
+- Sortino: [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (0.575)
+- Drawdown: [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) (11.5%)
+- Return: [Size effect strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SizeEffectStrategy) (332.93%)
+
+The backtesting statistics for each algorithm can be found in STATS.md in each algorithm's folder.  
