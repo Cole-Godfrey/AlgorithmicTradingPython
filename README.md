@@ -13,13 +13,15 @@ Here are the algorithms I have made so far:
 - A [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) that is a simple mean reversion strategy on EURUSD.
 - An [options trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/OptionsTradingBot) that buys call options if the price breaks out of its one-month high.
 - A momentum-based [crypto trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/CryptoTradingBot) that buys $5,000 positions in any of 47 Bitfinex-listed cryptocurrencies when their 14-day RSI croses above 70 and sells when RSI drops below 60, filtering out low-volume pairs.
+- A [Fundamental Factor Strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/FundamentalFactorStrategy) which filters for mature, high-liquid stocks across five sectors and buying the top 20% within each sector based on ROE, PM, and PE, rebalancing every quarter.
 
 **Here are my best strategies for each metric**:  
 *Note that the backtesting timeframe for each strategy is from 2016-01-01 to 2026-01-01 unless specified otherwise.*  
 - PSR (Benchmark Sharpe of 1): [Crypto trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/CryptoTradingBot) (33.253%)  
 - Sharpe: [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (0.631)  
-- Sortino: [Buy & Hold QQQ](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/BuyHoldQQQ) (0.575)
+- Sortino: [Fundamental Factor Strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/FundamentalFactorStrategy) (0.604)
 - Drawdown: [Forex trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/ForexTradingBot) (11.5%)
 - Return: [Size effect strategy](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/SizeEffectStrategy) (332.93%)
+- Alpha: [X trading bot](https://github.com/Cole-Godfrey/AlgorithmicTradingPython/tree/main/XTradingBot) (0.04)
 
 The backtesting statistics for each algorithm can be found in STATS.md in each algorithm's folder.  
