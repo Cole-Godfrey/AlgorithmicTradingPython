@@ -1,0 +1,1 @@
+This is just an exploratory notebook I used when learning QuantConnect's Research Engine.
